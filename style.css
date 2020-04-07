@@ -1,0 +1,50 @@
+body {
+	background-image: url('stars.gif');
+	color: white;
+	overflow: hidden;
+}
+
+.button {
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: blink;
+	display: inline-block;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: #000066;
+	color: black;
+	border: 3px solid black;
+}
+
+.button:hover {
+	background-color: #0000e6;
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.divbox {
+	background-image: url(hat1.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 800px;
+	margin-left: 20%;
+	margin-top: 5%;
+	border: 4px solid black;
+}
+
+h1 {
+	font-family: harry potter;
+	font-size: 50px;
+	font-weight: bolder;
+	color: white;
+	margin-top: 5%;
+}

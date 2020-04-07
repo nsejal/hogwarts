@@ -1,0 +1,16 @@
+/*css of scroll bar*/
+body::-webkit-scrollbar 
+{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track 
+{
+    box-shadow: 0 0 6px rgb(99, 1, 1);
+}
+
+body::-webkit-scrollbar-thumb 
+{
+    background-color: rgba(119, 0, 0, 0.726);
+    outline: 0px solid rgba(119, 0, 0, 0.945);
+}
